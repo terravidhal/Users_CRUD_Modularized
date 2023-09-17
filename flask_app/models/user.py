@@ -1,4 +1,4 @@
-# import the function that will return an instance of a connection
+# importe le connectToMySQL()fonction à partir du mysqlconnection module dans le flask_app.config dossier.  Ce module contient les paramètres de configuration de la base de données MySQL utilisée par l'application Flask. 
 from flask_app.config.mysqlconnection import connectToMySQL
 
 

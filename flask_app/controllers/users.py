@@ -1,5 +1,5 @@
-from flask import Flask, render_template,redirect, request 
 from flask_app import app
+from flask import Flask, render_template,redirect, request 
 # import the class 'Users' from folder 'flask_app/models/user.py
 from flask_app.models.user import Users 
 
@@ -24,8 +24,8 @@ def create_new_user():
 @app.route('/new', methods=["POST"])
 def create():
     datass = {
-        "fname": request.form["inputName4"],
-        "lname": request.form["inputlast_name4"],
+        "fname": request.form["inputName"],
+        "lname": request.form["inputlast_name"],
         "eml": request.form["inputEmail"]
     }
     Users.create_user(datass)

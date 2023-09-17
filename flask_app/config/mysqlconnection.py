@@ -1,3 +1,4 @@
+# La ligne import pymysql.cursorsimporte le cursorsmodule du pymysqlmodule.  Le pymysqlLe module est une interface Python pour se connecter aux bases de données MySQL.  Le cursorsLe module fournit un ensemble de classes qui peuvent être utilisées pour exécuter des requêtes et récupérer les résultats d'une base de données MySQL. 
 import pymysql.cursors
 
 class MySQLConnection:
